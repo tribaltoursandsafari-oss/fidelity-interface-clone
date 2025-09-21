@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +48,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        'travel-blue': 'hsl(var(--travel-blue))',
+        'travel-blue-light': 'hsl(var(--travel-blue-light))',
+        'travel-rating': 'hsl(var(--travel-rating))',
+        'travel-price': 'hsl(var(--travel-price))',
+        'travel-gray': 'hsl(var(--travel-gray))',
+        'travel-text-light': 'hsl(var(--travel-text-light))',
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
